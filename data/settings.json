@@ -1,0 +1,69 @@
+{
+    "Name": "ALPACA-TSB-ESP32",
+    "UID": "2CBCBB0D6EC8",
+    "TCP_port": 80,
+    "UDP_port": 32227,
+    "SYSLOG_host": "0.0.0.0",
+    "LOG_level": 4,
+    "SERIAL_log": true,
+    "dome-2CBCBB0D6EC800": {
+      "General": {
+        "Name": "dome-0",
+        "Description": "Alpaca Dome",
+        "UID": "dome-2CBCBB0D6EC800"
+      },
+      "Dome_Configuration": {
+        "Use_limit_switches": false,
+        "Shutter_timeout": 60
+      }
+    },
+    "switch-2CBCBB0D6EC800": {
+      "General": {
+        "Name": "switch-0",
+        "Description": "Alpaca Switch",
+        "UID": "switch-2CBCBB0D6EC800"
+      },
+      "Switch_Configuration": {
+        "Ch_0": "IN 1",
+        "Ch_1": "IN 2",
+        "Ch_2": "IN 3",
+        "Ch_3": "IN 4",
+        "Ch_4": "IN 5",
+        "Ch_5": "IN 6",
+        "Ch_6": "IN 7",
+        "Ch_7": "IN 8",
+        "Ch_8": "OUT 1",
+        "Ch_9": "OUT 2",
+        "Ch_10": "OUT 3",
+        "Ch_11": "OUT 4",
+        "Ch_12": "OUT 5",
+        "Ch_13": "OUT 6",
+        "Ch_14": "OUT 7",
+        "Ch_15": "OUT 8",
+        "Ch_16": "PWM 1",
+        "Ch_17": "PWM 2",
+        "Ch_18": "PWM 3",
+        "Ch_19": "PWM 4"
+      }
+    },
+    "safetymonitor-2CBCBB0D6EC800": {
+      "General": {
+        "Name": "safetymonitor-0",
+        "Description": "Alpaca SafetyMonitor",
+        "UID": "safetymonitor-2CBCBB0D6EC800"
+      },
+      "SafetyMonitor_Configuration": {
+        "Rain_delay": 2,
+        "Power_off_delay": 30,
+        "Weather_delay": 10,
+        "Use_sky_temp": false,
+        "Sky_temp_limit": 0,
+        "Use_wind": false,
+        "Wind_limit": 10,
+        "Use_humidity": false,
+        "Humidity": 90,
+        "Use_light": false,
+        "Ambient_light": 10
+      }
+    }
+  }
